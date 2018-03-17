@@ -11,8 +11,10 @@ App({
       success: function(res) {
         if (res.data.code == 0) {
           wx.setStorageSync('mallName', res.data.data.value);
+          // wx.setStorageSync('mallName', '红颜草莓');
         }
       }
+      
     })
     wx.request({
       url: 'https://api.it120.cc/' + that.globalData.subDomain + '/score/send/rule',
@@ -181,9 +183,9 @@ App({
   },
   globalData:{
     userInfo:null,
-    subDomain: "tz", // 如果你的域名是： https://api.it120.cc/abcd 那么这里只要填写 abcd
-    version: "1.9.SNAPSHOT",
-    shareProfile: '百款精品商品，总有一款适合您' // 首页转发的时候话术
+    subDomain: "hongyancaomei", // 如果你的域名是： https://api.it120.cc/abcd 那么这里只要填写 abcd
+    version: "1.0.0",
+    shareProfile: '每个人心中都有一颗红颜草莓' // 首页转发的时候话术
   }
   /*
   根据自己需要修改下单时候的模板消息内容设置，可增加关闭订单、收货时候模板消息提醒；

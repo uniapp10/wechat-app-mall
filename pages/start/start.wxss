@@ -14,7 +14,7 @@ page{
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: #69C3AA;
+  background: #FB363E;
   align-items: stretch;
   padding: 0;
   height: 100%;
@@ -33,7 +33,8 @@ page{
   width: 100%;
   height: 100%;
   padding-bottom: 450rpx;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(244,244,244,0)), color-stop(0.1, #f4f4f4), to(#f4f4f4));
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(0.1, #FFF), to(#F8E6D7)); */
+  background: #FFF;
   opacity: 0;
   transform: translate3d(0,100%,0);
   animation: rise 3s cubic-bezier(0.19, 1, 0.22, 1) .25s forwards;
@@ -71,7 +72,7 @@ page{
 
 .smalltitle{
   position: absolute;
-  top: 50rpx;
+  top: 40rpx;
   left: 50%;
   width: 600rpx;
   height: 200rpx;
@@ -91,7 +92,7 @@ page{
   left: 50%;
   width: 1000rpx;
   margin-left: -500rpx;
-  height: 200rpx;
+  height: 230rpx;
   transition: all .35s ease;
 }
 .logo {
@@ -156,7 +157,7 @@ page{
   font-size: 13pt;
   line-height: 85rpx;
   height: 85rpx;
-  background: #69C3AA;
+  background: #FB363E;
   color: #fff;
   text-align: center;
   border-radius: 100rpx;

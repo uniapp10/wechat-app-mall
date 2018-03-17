@@ -196,7 +196,8 @@ swiper-item image {
   top:0;
   z-index:500;
   width: 100%;
-  height: 100rpx;
+  /*此处为搜索框高度  */
+  height: 0rpx;
   background: gray;
   display: flex;
   flex-direction: column;

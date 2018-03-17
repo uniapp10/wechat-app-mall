@@ -35,8 +35,8 @@ Page({
   },
   aboutUs : function () {
     wx.showModal({
-      title: '关于我们',
-      content: '本系统基于开源小程序商城系统 https://github.com/EastWorld/wechat-app-mall 搭建，祝大家使用愉快！',
+      title: '关于我',
+      content: '爱吃红颜草莓的萌萌',
       showCancel:false
     })
   },
